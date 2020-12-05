@@ -1,29 +1,28 @@
 body {
-   background-image: linear-gradient(yellow, green);
+  background-image:orange;
     
-  height: 100%;
+  height: 100vh;
 }
 
 .article-container {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
   
 }
-.flexbox-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-/*
+
+
 .article1 {
-  
+  flex: 1;
   padding: 20px;
   text-align:center;
+  height: 85vh;
   
 }
-*/
 
+.datadisp {
+  border: 10px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
 /*
 .header {
   text-align: center;

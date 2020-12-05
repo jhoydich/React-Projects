@@ -1,40 +1,61 @@
-body {
-   background-image: linear-gradient(grey, orange);
-    
+.bg {
+  background-image: url('./Components/p2.jpg');
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .article-container {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
   
 }
 
 
 .article1 {
-  
-  padding: 20px;
+  flex: 1;
+  padding: 5px;
   text-align:center;
+  height: 85vh;
+  display: flex;
+  
   
 }
 
+.datadisp {
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: white;
+  height: 80vh;
+  width: 35vh;
+  margin: auto;
+  opacity: 50%;
 
+}
 
 .header {
   text-align: center;
-  padding: 10px 20px 0px 10px;
+}
+.timer-buttons {
+  flex: 1;
+  height: 20px;
+  margin: auto; 
+}
+.timer {
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: white;
+  height: 120px;
+  width: 80px;
+  flex: 1;
+  opacity: 50%;
+  margin: auto;
 }
 
-  
-
-.button{
-  padding: 10px 10px 10px 10px;
-  margin: 10px;
-  background: #FAA;
-  
-  
-}
-.button-div{
-  padding: 30px 10px 0px 10px;
+.b {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  vertical-align: top;
+  margin-right: 10px;
 }
